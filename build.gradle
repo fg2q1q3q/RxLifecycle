@@ -25,9 +25,9 @@ apply plugin: 'com.github.ben-manes.versions'
 
 ext {
     minSdkVersion = 14
-    compileSdkVersion = 25
+    compileSdkVersion = 24
     targetSdkVersion = compileSdkVersion
-    buildToolsVersion = '25'
+    buildToolsVersion = '24'
 
     sourceCompatibilityVersion = JavaVersion.VERSION_1_7
     targetCompatibilityVersion = JavaVersion.VERSION_1_7
@@ -37,7 +37,7 @@ ext {
     rxBinding = 'com.jakewharton.rxbinding:rxbinding:0.4.0'
     navi = 'com.trello:navi:1.0'
     kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:$verKotlin"
-    appCompat = 'com.android.support:appcompat-v7:25.0.0'
+    appCompat = 'com.android.support:appcompat-v7:24.0.0'
     jsr305Annotations = 'com.google.code.findbugs:jsr305:3.0.1'
     junit = 'junit:junit:4.12'
     robolectric = 'org.robolectric:robolectric:3.1.4'
